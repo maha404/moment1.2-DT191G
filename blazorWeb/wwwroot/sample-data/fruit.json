@@ -1,0 +1,27 @@
+[
+    {
+        "FruitName" : "Banan", 
+        "FruitImg" : "/images/banana.jpg", 
+        "Alt" : "Bild på en banan"
+    }, 
+    {
+        "FruitName" : "Apelsin", 
+        "FruitImg" : "/images/orange.jpg", 
+        "Alt" : "Bild på en apelsin"
+    }, 
+    {
+        "FruitName" : "Äpple", 
+        "FruitImg" : "/images/apple.jpg", 
+        "Alt" : "Bild på ett äpple"
+    }, 
+    {
+        "FruitName" : "Kiwi", 
+        "FruitImg" : "/images/kiwi.jpg", 
+        "Alt" : "Bild på en kiwi frukt"
+    }, 
+    {
+        "FruitName" : "Ananas", 
+        "FruitImg" : "/images/pineapple.jpg", 
+        "Alt" : "Bild på en ananas" 
+    }
+]

@@ -1,0 +1,32 @@
+@page "/json"
+@inject HttpClient Http
+
+<h2>JSON</h2>
+<div class="container">
+
+@if(fruits == null){
+    <p>Laddar...</p>
+} else {
+    @foreach (var fruit in fruits) {
+        <div class="fruit-card">
+        <img src="@fruit.FruitImg" alt="@fruit.Alt"> 
+        <p>@fruit.FruitName</p>
+        </div>
+    }   
+}
+
+</div>
+
+@code {
+    private Fruit[]? fruits;
+
+    protected override async Task OnInitializedAsync() {
+        fruits = await Http.GetFromJsonAsync<Fruit[]>("/sample-data/fruit.json");
+    }
+
+    public class Fruit {
+        public string? FruitName { set; get; }
+        public string? FruitImg { set; get; }
+        public string? Alt { set; get; }
+    }
+}

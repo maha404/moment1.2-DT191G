@@ -1,0 +1,41 @@
+@page "/conversion"
+
+<h2>Konventering</h2>
+
+<p>Konventera meter till foot</p>
+<input type="number" @bind="Meter">
+<button @onclick="ConvertMeter">Konventera</button>
+<p>@MeterResult</p>
+<div>
+    <a href="https://byjus.com/meter-to-feet-calculator/" target="_blank">Källa</a>
+</div>
+
+<p>Konventera km/h till miles/hour</p>
+<input type="number" @bind="Kilometer">
+<button @onclick="ConvertKm">Konventera</button>
+<p>@MilesResult</p>
+<div>
+    <a href="https://www.inchcalculator.com/convert/kilometer-per-hour-to-mile-per-hour/" target="_blank">Källa</a>
+</div>
+
+
+@code {
+
+    public int Meter { set; get; }
+    public double MeterResult;
+    
+    public void ConvertMeter ()
+    {
+        double foot = Math.Round(Meter * 3.28084, 1);
+        MeterResult = foot;
+    }
+
+    public int Kilometer { set; get; }
+    public int MilesResult;
+
+    public void ConvertKm ()
+    {
+        double mph = Math.Round(Kilometer / 1.609344, 1);
+        MilesResult = Convert.ToInt32(mph);
+    }
+}

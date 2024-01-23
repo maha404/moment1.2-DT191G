@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Maria\\OneDrive\\Skrivbord\\.NET\\Moment 1\\moment1.2\\blazorWeb\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\Maria\\OneDrive\\Skrivbord\\.NET\\Moment 1\\moment1.2\\blazorWeb\\obj\\Debug\\net7.0\\build-gz\\NuqWOD8e.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\Maria\\OneDrive\\Skrivbord\\.NET\\Moment 1\\moment1.2\\blazorWeb\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\Maria\\OneDrive\\Skrivbord\\.NET\\Moment 1\\moment1.2\\blazorWeb\\wwwroot\\images\\apple.jpg",
+      "PackagePath": "staticwebassets\\images\\apple.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Maria\\OneDrive\\Skrivbord\\.NET\\Moment 1\\moment1.2\\blazorWeb\\wwwroot\\images\\banana.jpg",
+      "PackagePath": "staticwebassets\\images\\banana.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Maria\\OneDrive\\Skrivbord\\.NET\\Moment 1\\moment1.2\\blazorWeb\\wwwroot\\images\\kiwi.jpg",
+      "PackagePath": "staticwebassets\\images\\kiwi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Maria\\OneDrive\\Skrivbord\\.NET\\Moment 1\\moment1.2\\blazorWeb\\wwwroot\\images\\orange.jpg",
+      "PackagePath": "staticwebassets\\images\\orange.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Maria\\OneDrive\\Skrivbord\\.NET\\Moment 1\\moment1.2\\blazorWeb\\wwwroot\\images\\pineapple.jpg",
+      "PackagePath": "staticwebassets\\images\\pineapple.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Maria\\OneDrive\\Skrivbord\\.NET\\Moment 1\\moment1.2\\blazorWeb\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Maria\\OneDrive\\Skrivbord\\.NET\\Moment 1\\moment1.2\\blazorWeb\\wwwroot\\sample-data\\fruit.json",
+      "PackagePath": "staticwebassets\\sample-data\\fruit.json"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.blazorWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.blazorWeb.props",
+      "PackagePath": "build\\blazorWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.blazorWeb.props",
+      "PackagePath": "buildMultiTargeting\\blazorWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.blazorWeb.props",
+      "PackagePath": "buildTransitive\\blazorWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
